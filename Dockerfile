@@ -1,10 +1,10 @@
-FROM qmuensa/Man-userbot:buster
+FROM qmuensa/qb-userbot:buster
 
 RUN git clone -b Man-userbot https://github.com/qmuensa/Man-userbot/home/Man-userbot/ \
-    && chmod 777 /home/Man-userbot\
-    && mkdir /home/Man-userbot/bin/
+    && chmod 777 /home/qb-userbot\
+    && mkdir /home/qb-userbot/bin/
 
-WORKDIR /home/Man-userbot/
+WORKDIR /home/qb-userbot/
 
 CMD [ "bash", "start" ]
 

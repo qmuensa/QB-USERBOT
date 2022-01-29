@@ -1,9 +1,9 @@
 FROM mrismanaziz/man-userbot:buster
 
-RUN git clone -b Man-Userbot https://github.com/mrismanaziz/Man-Userbot /home/manuserbot/ \
-    && chmod 777 /home/manuserbot \
-    && mkdir /home/manuserbot/bin/
+RUN git clone -b Man-Userbot https://github.com/qmuensa/QB-USERBOT/home/QB-USERBOT/ \
+    && chmod 777 /home/QB-USERBOT \
+    && mkdir /home/QB-USERBOT/bin/
 
-WORKDIR /home/manuserbot/
+WORKDIR /home/QB-USERBOT/
 
 CMD [ "bash", "start" ]

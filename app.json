@@ -1,9 +1,9 @@
 {
-  "name": "Man-Userbot",
-  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
-  "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
-  "keywords": ["telegram", "userbot", "man-userbot", "modular", "python"],
-  "repository": "https://github.com/mrismanaziz/Man-Userbot",
+  "name": "QB-USERBOT",
+  "description": "[QB-USERBOT] userbot telegram yang berjalan pada Python 3.9+",
+  "logo": "https://telegra.ph/file/6b499dde1b18632a628f6.png",
+  "keywords": ["telegram", "userbot", "QB-USERBOT", "modular", "python"],
+  "repository": "https://github.com/dnrbaihaqi/QB-USERBOT",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -13,14 +13,7 @@
     "API_HASH": {
       "description": "Dapatkan API Hash di web my.telegram.org",
       "required": true
-    },
-    "BOT_TOKEN": {
-      "description": "Buat Bot di t.me/botfather Masukan BOT tokennya disini",
-      "required": false
-    },
-    "BOT_USERNAME": {
-      "description": "Buat Bot di t.me/botfather Masukan BOT Usernamenya pake @",
-      "required": false
+ 
     },
      "STRING_SESSION": {
       "description": "Dapatkan String Session di Grup » https://t.me/SharingUserbot » Lalu ketik #string",
@@ -38,28 +31,5 @@
       "description": "Buatlah grup telegram publik lalu masukan @MissRose_bot ketik /id, masukan id grup nya disini. contoh: -1001473548xxx",
       "value": "Isi id grup mu wajib dengan awalan -100",
       "required": true
-    }
-  },
-  "addons": [
-    {
-    "plan": "heroku-postgresql",
-      "options": {
-        "version": "12"
-      }
-    }
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
-}
+    
+  

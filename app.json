@@ -3,7 +3,7 @@
   "description": "[QB-USERBOT] userbot telegram yang berjalan pada Python 3.9+",
   "logo": "https://telegra.ph/file/6b499dde1b18632a628f6.png",
   "keywords": ["telegram", "userbot", "QB-USERBOT", "modular", "python"],
-  "repository": "https://github.com/dnrbaihaqi/QB-USERBOT",
+  "repository": "https://github.com/qmuensa/QB-USERBOT",
   "stack": "container",
   "env": {
     "API_KEY": {
